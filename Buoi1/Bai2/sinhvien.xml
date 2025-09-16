@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<class>
+    <student id="SV001">
+        <name>Nguyen Van A</name>
+        <subjects>
+            <subject>
+                <subject_name>Mathematics</subject_name>
+                <score>9.0</score>
+            </subject>
+            <subject>
+                <subject_name>Enghlish</subject_name>
+                <score>9.5</score>
+            </subject>
+        </subjects>
+    </student>
+    <student id="SV002">
+        <name>Tran Thi B</name>
+        <subjects>
+            <subject>
+                <subject_name>Mathematics</subject_name>
+                <score>8.0</score>
+            </subject>
+            <subject>
+                <subject_name>Enghlish</subject_name>
+                <score>8.5</score>
+            </subject>
+        </subjects>
+    </student>
+</class>

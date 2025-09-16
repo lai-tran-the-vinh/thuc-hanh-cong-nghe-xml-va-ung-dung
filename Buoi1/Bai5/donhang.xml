@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<orders xmlns:ord="http://company.com/order" xmlns:prod="http://company.com/product">
+    <ord:order id="O001" customer="Nguyen Van A" date="2024-06-01">
+        <prod:items>
+            <prod:item id="P001" name="Apple iPhone 16" quantity="2" price="50000" />
+            <prod:item id="P002" name="Samsung Galaxy S25" quantity="1" price="150000" />
+        </prod:items>
+    </ord:order>
+    <ord:order id="O002" customer="Nguyen Van B" date="2024-06-02">
+        <prod:items>
+            <prod:item id="P003" name="Apple iPhone 15" quantity="2" price="70000" />
+            <prod:item id="P004" name="Samsung Galaxy S24" quantity="1" price="130000" />
+        </prod:items>
+    </ord:order>
+</orders>

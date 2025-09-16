@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<library>
+    <book>
+        <title>Java</title>
+        <author>Nguyen Van A</author>
+        <year>2020</year>
+        <genre>Programming</genre>
+    </book>
+    <book>
+        <title>PHP</title>
+        <author>Tran Thi B</author>
+        <year>2019</year>
+        <genre>Web Development</genre>
+    </book>
+    <book>
+        <title>Python</title>
+        <author>Le Van C</author>
+        <year>2021</year>
+        <genre>Data Science</genre>
+    </book>
+</library>

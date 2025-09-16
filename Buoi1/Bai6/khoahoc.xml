@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<elearning
+    xmlns:course="http://example.com/course"
+    xmlns:student="http://example.com/student"
+    xmlns:instructor="http://example.com/instructor"
+>
+    <course:course id="C001" title="Hoc lap trinh C++ co ban" categor="Lap trinh">
+        <instructor:instructor id="I001">
+            <instructor:name>Nguyen Van A</instructor:name>
+            <instructor:email>nguyenvana@gmail.com</instructor:email>
+        </instructor:instructor>
+        <student:students>
+            <student:student id="ST001">
+                <student:name>
+                    Tran Thi B
+                </student:name>
+                <student:process>70%</student:process>
+            </student:student>
+        </student:students>
+    </course:course>
+
+    <course:course id="C002" title="Hoc thiet ke do hoa co ban" categor="Thiet ke">
+        <instructor:instructor id="I002">
+            <instructor:name>Nguyen Van B</instructor:name>
+            <instructor:email>nguyenvanb@gmail.com</instructor:email>
+        </instructor:instructor>
+        <student:students>
+            <student:student id="ST002">
+                <student:name>
+                    Tran Thi C
+                </student:name>
+                <student:process>76%</student:process>
+            </student:student>
+        </student:students>
+    </course:course>
+</elearning>
