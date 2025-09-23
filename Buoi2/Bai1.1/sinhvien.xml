@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class SYSTEM "sinhvien.dtd">
+
+<class>
+    <student id="001">
+        <name>Lai Tran The Vinh</name>
+        <dob>05-02-2004</dob>
+        <major>Ky thuat phan mem</major>
+    </student>
+    <student id="002">
+        <name>Vo Quoc Viet</name>
+        <dob>01-01-2004</dob>
+        <major>Ky thuat phan mem</major>
+    </student>
+</class>

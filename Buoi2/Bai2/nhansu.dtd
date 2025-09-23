@@ -1,0 +1,15 @@
+<!ELEMENT company (dep:department+)>
+<!ATTLIST company
+    xmlns:hr CDATA #REQUIRED
+    xmlns:dep CDATA #REQUIRED
+>
+<!ELEMENT dep:department (hr:employee+)>
+<!ATTLIST dep:department
+    name CDATA #REQUIRED
+>
+<!ELEMENT hr:employee (hr:name, hr:position)>
+<!ATTLIST hr:employee
+    id CDATA #REQUIRED
+>
+<!ELEMENT hr:name (#PCDATA)>
+<!ELEMENT hr:position (#PCDATA)>

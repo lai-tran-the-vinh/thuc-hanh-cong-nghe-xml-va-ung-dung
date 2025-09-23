@@ -1,0 +1,26 @@
+<!ELEMENT elearning (course:course+)>
+<!ATTLIST elearning
+    xmlns:course CDATA #IMPLIED
+    xmlns:student CDATA #IMPLIED
+    xmlns:instructor CDATA #IMPLIED
+>
+<!ELEMENT course:course (instructor:instructor, student:students)>
+<!ATTLIST course:course
+    id CDATA #REQUIRED
+    title CDATA #REQUIRED
+    categor CDATA #REQUIRED
+>
+<!ELEMENT instructor:instructor (instructor:name, instructor:email)>
+<!ATTLIST instructor:instructor
+    id CDATA #REQUIRED
+>
+<!ELEMENT instructor:name (#PCDATA)>
+<!ELEMENT instructor:email (#PCDATA)>
+
+<!ELEMENT student:students (student:student+)>
+<!ELEMENT student:student (student:name, student:process)>
+<!ATTLIST student:student
+    id CDATA #REQUIRED
+>
+<!ELEMENT student:name (#PCDATA)>
+<!ELEMENT student:process (#PCDATA)>

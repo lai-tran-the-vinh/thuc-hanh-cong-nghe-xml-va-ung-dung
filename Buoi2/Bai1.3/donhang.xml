@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE company SYSTEM "donhang.dtd">
+
+<company>
+    <order id="O001">
+        <products>
+            <product id="P001">
+                <name>Kem tron Thai Lan</name>
+                <quantity>10</quantity>
+            </product>
+            <product id="P002">
+                <name>Kem chong nang</name>
+                <quantity>15</quantity>
+            </product>
+        </products>
+    </order>
+
+    <order id="O002">
+        <products>
+            <product id="P003">
+                <name>Mit say</name>
+                <quantity>25</quantity>
+            </product>
+            <product id="P004">
+                <name>Banh Oreo</name>
+                <quantity>20</quantity>
+            </product>
+        </products>
+    </order>
+</company>

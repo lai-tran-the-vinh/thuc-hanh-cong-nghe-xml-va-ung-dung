@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hospital SYSTEM "../../Buoi2/Bai2/benhvien.dtd">
 
 <hospital
     xmlns="http://example.com/hospital"

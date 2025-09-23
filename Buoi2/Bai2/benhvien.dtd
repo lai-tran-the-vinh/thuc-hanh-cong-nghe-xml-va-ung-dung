@@ -1,0 +1,28 @@
+<!ELEMENT hospital (app:appointment+)>
+<!ATTLIST hospital
+    xmlns CDATA #IMPLIED
+    xmlns:doc CDATA #IMPLIED
+    xmlns:pat CDATA #IMPLIED
+    xmlns:app CDATA #IMPLIED
+>
+
+<!ELEMENT app:appointment (doc:doctor, pat:patient)>
+<!ATTLIST app:appointment
+    id CDATA #REQUIRED
+    date CDATA #REQUIRED
+    status CDATA #REQUIRED
+>
+
+<!ELEMENT doc:doctor (doc:name, doc:specialty)>
+<!ATTLIST doc:doctor
+    id CDATA #REQUIRED
+>
+<!ELEMENT doc:name (#PCDATA)>
+<!ELEMENT doc:specialty (#PCDATA)>
+
+<!ELEMENT pat:patient (pat:name, pat:dob)>
+<!ATTLIST pat:patient
+    id CDATA #REQUIRED
+>
+<!ELEMENT pat:name (#PCDATA)>
+<!ELEMENT pat:dob (#PCDATA)>

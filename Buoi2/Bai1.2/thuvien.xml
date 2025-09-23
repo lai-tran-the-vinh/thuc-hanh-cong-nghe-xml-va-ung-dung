@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE library SYSTEM "../../Buoi2/Bai2/thuvien.dtd">
+<!DOCTYPE library SYSTEM "thuvien.dtd">
 
 <library>
-    <book>
+    <book id="ST001">
         <title>Java</title>
         <author>Nguyen Van A</author>
         <year>2020</year>
         <genre>Programming</genre>
     </book>
-    <book>
+    <book id="ST002">
         <title>PHP</title>
         <author>Tran Thi B</author>
         <year>2019</year>
         <genre>Web Development</genre>
     </book>
-    <book>
+    <book id="ST003">
         <title>Python</title>
         <author>Le Van C</author>
         <year>2021</year>

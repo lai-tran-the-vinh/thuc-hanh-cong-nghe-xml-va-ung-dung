@@ -1,0 +1,8 @@
+<!ELEMENT class (student*)>
+<!ELEMENT student (name, subjects)>
+<!ATTLIST student id CDATA #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT subjects (subject+)>
+<!ELEMENT subject (subject_name, score)>
+<!ELEMENT subject_name (#PCDATA)>
+<!ELEMENT score (#PCDATA)>
