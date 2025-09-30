@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE library SYSTEM "thuvien.dtd">
+<!-- <!DOCTYPE library SYSTEM "thuvien.dtd"> -->
 
-<library>
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../Buoi3/Bai1.2/thuvien.xsd">
     <book id="ST001">
         <title>Java</title>
         <author>Nguyen Van A</author>

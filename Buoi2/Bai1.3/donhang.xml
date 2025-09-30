@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE company SYSTEM "donhang.dtd">
+<!-- <!DOCTYPE company SYSTEM "donhang.dtd"> -->
 
-<company>
+<company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../Buoi3/Bai2/Bai2.3/donhang.xsd">
     <order id="O001">
         <products>
             <product id="P001">
