@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DSSV xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="thongtinsinhvien.xsd">
+    <DS_KHOA>
+        <KHOA>
+            <MA>K001</MA>
+            <TEN>cntt</TEN>
+        </KHOA>
+        <KHOA>
+            <MA>K002</MA>
+            <TEN>diendientu</TEN>
+        </KHOA>
+        <KHOA>
+            <MA>K003</MA>
+            <TEN>kythuatcokhi</TEN>
+        </KHOA>
+        <KHOA>
+            <MA>K004</MA>
+            <TEN>khoahocxahoi</TEN>
+        </KHOA>
+    </DS_KHOA>
+
+    <DS_LOP>
+        <LOP>
+            <MA>L001</MA>
+            <TEN>Kỹ thuật phần mềm 2022</TEN>
+            <MAKHOA>K001</MAKHOA>
+        </LOP>
+        <LOP>
+            <MA>L002</MA>
+            <TEN>Kỹ thuật cơ khí 2024</TEN>
+            <MAKHOA>K003</MAKHOA>
+        </LOP>
+        <LOP>
+            <MA>L003</MA>
+            <TEN>Điện - Điện tử 2025</TEN>
+            <MAKHOA>K002</MAKHOA>
+        </LOP>
+    </DS_LOP>
+
+    <DS_SINHVIEN>
+        <SINHVIEN>
+            <MSSV>SV001</MSSV>
+            <HOTEN>Lại Trần Thế Vinh</HOTEN>
+            <EMAIL>tvinh9130@gmail.com</EMAIL>
+            <DIACHI>Vĩnh Long</DIACHI>
+            <SDT>0328573746</SDT>
+            <MALOP>L001</MALOP>
+        </SINHVIEN>
+        <SINHVIEN>
+            <MSSV>SV002</MSSV>
+            <HOTEN>Lê Nguyễn Xuân Lan</HOTEN>
+            <EMAIL>xuanlan@gmail.com</EMAIL>
+            <DIACHI>Vĩnh Long</DIACHI>
+            <SDT>0987654321</SDT>
+            <MALOP>L002</MALOP>
+        </SINHVIEN>
+    </DS_SINHVIEN>
+</DSSV>
