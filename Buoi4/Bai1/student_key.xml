@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<school xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="student_key.xsd">
+    <student>
+        <id>SV01</id>
+        <name>Nguyen Van A</name>
+        <date>26-06-2004</date>
+
+    </student>
+    <student>
+        <id>SV02</id>
+        <name>Tran Thi B</name>
+        <date>22-07-2003</date>
+
+    </student>
+    <enrollment>
+        <studentRef>SV01</studentRef>
+        <course>Toan101</course>
+    </enrollment>
+    <enrollment>
+        <studentRef>SV02</studentRef>
+        <course>Van202</course>
+    </enrollment>
+    <enrollment>
+        <studentRef>SV01</studentRef>
+        <course>Anh303</course>
+    </enrollment>
+</school>
