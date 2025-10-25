@@ -1,0 +1,55 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "SinhVien",
+    "type": "object",
+    "properties": {
+        "hoTen": {
+            "type": "string",
+            "description": "Họ và tên sinh viên"
+        },
+        "tuoi": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Tuổi của sinh viên"
+        },
+        "gioiTinh": {
+            "type": "string",
+            "enum": [
+                "Nam",
+                "Nữ",
+                "Khác"
+            ],
+            "description": "Giới tính của sinh viên"
+        },
+        "diemTrungBinh": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10,
+            "description": "Điểm trung bình của sinh viên"
+        },
+        "diaChi": {
+            "type": "object",
+            "properties": {
+                "thanhPho": {
+                    "type": "string",
+                    "description": "Thành phố nơi sinh viên sinh sống"
+                },
+                "quocGia": {
+                    "type": "string",
+                    "description": "Quốc gia nơi sinh viên sinh sống"
+                }
+            },
+            "required": [
+                "thanhPho",
+                "quocGia"
+            ]
+        }
+    },
+    "required": [
+        "hoTen",
+        "tuoi",
+        "gioiTinh",
+        "diemTrungBinh",
+        "diaChi"
+    ]
+}

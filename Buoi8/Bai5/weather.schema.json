@@ -1,0 +1,50 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "DuLieuThoiTiet",
+    "type": "object",
+    "properties": {
+        "tenThanhPho": {
+            "type": "string",
+            "description": "Tên của thành phố"
+        },
+        "quocGia": {
+            "type": "string",
+            "description": "Quốc gia nơi thành phố nằm"
+        },
+        "nhietDoHienTai": {
+            "type": "number",
+            "description": "Nhiệt độ hiện tại (độ C)"
+        },
+        "doAm": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100,
+            "description": "Độ ẩm hiện tại (%)"
+        },
+        "tocDoGio": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Tốc độ gió (km/h)"
+        },
+        "moTaThoiTiet": {
+            "type": "string",
+            "enum": [
+                "nắng",
+                "mưa",
+                "nhiều mây",
+                "âm u",
+                "bão",
+                "sương mù"
+            ],
+            "description": "Mô tả tình trạng thời tiết hiện tại"
+        }
+    },
+    "required": [
+        "tenThanhPho",
+        "quocGia",
+        "nhietDoHienTai",
+        "doAm",
+        "tocDoGio",
+        "moTaThoiTiet"
+    ]
+}

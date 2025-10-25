@@ -1,0 +1,47 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "ThongTinSach",
+    "type": "object",
+    "properties": {
+        "tieuDe": {
+            "type": "string",
+            "description": "Tiêu đề của cuốn sách"
+        },
+        "tacGia": {
+            "type": "string",
+            "description": "Tên tác giả của cuốn sách"
+        },
+        "namXuatBan": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Năm xuất bản của cuốn sách"
+        },
+        "theLoai": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "minItems": 1,
+            "description": "Danh sách thể loại của cuốn sách"
+        },
+        "soTrang": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Số lượng trang của cuốn sách"
+        },
+        "danhGia": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 5,
+            "description": "Điểm đánh giá trung bình (0–5)"
+        }
+    },
+    "required": [
+        "tieuDe",
+        "tacGia",
+        "namXuatBan",
+        "theLoai",
+        "soTrang",
+        "danhGia"
+    ]
+}

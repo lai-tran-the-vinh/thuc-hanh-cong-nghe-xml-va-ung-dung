@@ -1,0 +1,20 @@
+[
+    {
+        "tenSanPham": "Laptop Dell Inspiron 15",
+        "giaTien": 18500000,
+        "soLuongTonKho": 12,
+        "danhMucSanPham": "Laptop"
+    },
+    {
+        "tenSanPham": "Chuột Logitech M331",
+        "giaTien": 450000,
+        "soLuongTonKho": 50,
+        "danhMucSanPham": "Phụ kiện máy tính"
+    },
+    {
+        "tenSanPham": "Tai nghe Sony WH-1000XM5",
+        "giaTien": 7990000,
+        "soLuongTonKho": 8,
+        "danhMucSanPham": "Âm thanh"
+    }
+]

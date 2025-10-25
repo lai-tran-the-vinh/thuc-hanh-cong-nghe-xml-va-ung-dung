@@ -1,0 +1,10 @@
+{
+    "hoTen": "Nguyễn Văn A",
+    "tuoi": 20,
+    "gioiTinh": "Nam",
+    "diemTrungBinh": 8.2,
+    "diaChi": {
+        "thanhPho": "Cần Thơ",
+        "quocGia": "Việt Nam"
+    }
+}

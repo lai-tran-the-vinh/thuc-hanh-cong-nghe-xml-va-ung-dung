@@ -1,0 +1,34 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "DanhSachSanPham",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "tenSanPham": {
+                "type": "string",
+                "description": "Tên của sản phẩm"
+            },
+            "giaTien": {
+                "type": "number",
+                "minimum": 0,
+                "description": "Giá tiền của sản phẩm (VNĐ)"
+            },
+            "soLuongTonKho": {
+                "type": "integer",
+                "minimum": 0,
+                "description": "Số lượng sản phẩm còn trong kho"
+            },
+            "danhMucSanPham": {
+                "type": "string",
+                "description": "Danh mục mà sản phẩm thuộc về"
+            }
+        },
+        "required": [
+            "tenSanPham",
+            "giaTien",
+            "soLuongTonKho",
+            "danhMucSanPham"
+        ]
+    }
+}
