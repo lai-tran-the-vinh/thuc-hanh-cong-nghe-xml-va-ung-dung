@@ -1,0 +1,43 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "course",
+    "type": "object",
+    "properties": {
+        "title": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 100
+        },
+        "author": {
+            "type": "string",
+            "minLength": 1
+        },
+        "price": {
+            "type": "number",
+            "minimum": 0
+        },
+        "inStock": {
+            "type": "boolean"
+        },
+        "categories": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "minLength": 2
+            },
+            "minItem": 0
+        },
+        "rating": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 5
+        }
+    },
+    "required": [
+        "title",
+        "author",
+        "price",
+        "inStock",
+        "categories"
+    ]
+}
